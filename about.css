@@ -1,0 +1,118 @@
+body {
+    background-color: #FFACAC;
+    margin: 0px;
+    font-family: 'Comfortaa', cursive;
+}
+
+nav {
+    background-color: #ffffff;
+    margin-top: 22px;
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-bottom: 22px;
+    height: 60px;
+    border: 4px solid;
+    border-radius: 22px;
+    padding: 22px;
+}
+
+nav > a {
+    color: black;
+}
+
+#links {
+    background-color: #ffffff;
+    margin-top: 22px;
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-bottom: 22px;
+    height: 30px;
+    border: 4px solid;
+    border-radius: 22px;
+    padding: 22px;
+    padding-left: calc(50vw - 130px);
+    padding-top: 30px;
+    display: none;
+}
+
+#links > li {
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sitelogo {
+    width: 40px;
+    margin: 7.3px;
+}
+
+.icon {
+    background-color: #FFACAC;
+    width:55px;
+    height:55px;
+    border: 4px solid;
+    border-radius: 15px;
+    float: left;
+}
+
+.menu-icon {
+    width:50px;
+    margin-top: calc(50% - 25%);
+}
+
+.icon-container {
+    float: right;
+}
+
+.content {
+    background-color: #ffffff;
+    margin-top: 22px;
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-bottom: 22px;
+    height: calc(100vh - 188px);
+    border: 4px solid;
+    border-radius: 22px;
+    padding: 0px 22px;
+    overflow: scroll;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 4px solid;
+    border-radius: 15px;
+    padding-top: 27vh;
+    margin: 22px 0px;
+    text-align: center;
+}
+
+.about {
+    width: 220px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 350px;
+}
+
+@media (min-width: 750px) {
+    nav {
+        display: inline-block;
+        height: calc(100vh - 100px);
+        width: 100px;
+        margin-right: 0px;
+    }
+
+    .icon {
+        margin-left: 18px;
+    }
+
+    .icon-container {
+        display: none;
+    }
+
+    .content {
+        display: inline-block;
+        height: calc(100vh - 56px);
+        width: calc(100vw - 275px);
+    }
+}
