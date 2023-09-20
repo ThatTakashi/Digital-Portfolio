@@ -91,21 +91,42 @@ main {
 }
 
 .about {
-    width: 220px;
+    width: 100%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 350px;
+}
+
+.skills-heading {
     margin-top: 350px;
 }
 
 .skills-container {
-    width: 250px;
+    width: 100%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 350px;
+    margin-top: 10px;
+    margin-bottom: 200px;
 }
 
+.skills {
+    margin-bottom: 50px;
+}
+
+.footer-container {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    margin-bottom: 50px;
+}
 /* Styles for the desktop version of my site */
 @media (min-width: 750px) {
     nav {
@@ -145,6 +166,10 @@ main {
         padding-top: calc(50vh - 100px);
     }
 
+    .about {
+        width: 220px;
+    }
+
     .skills-container {
         width: 75%;
         margin-left: auto;
@@ -152,6 +177,27 @@ main {
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+
+    .skills {
+        width: 250px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .footer-container {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .footer {
+        width: 250px;
+        margin-left: 25px;
+        margin-right: 25px;
     }
 
 }
