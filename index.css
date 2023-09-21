@@ -124,6 +124,10 @@ main {
     margin-bottom: 10px;
 }
 
+.footer-container > img {
+    margin-bottom: 50px;
+}
+
 .footer {
     margin-bottom: 50px;
 }
@@ -194,10 +198,14 @@ main {
         justify-content: center;
     }
 
+    .footer-container > img {
+        margin-top: 75px;
+    }
+
     .footer {
         width: 250px;
         margin-left: 25px;
         margin-right: 25px;
     }
-
+    
 }
