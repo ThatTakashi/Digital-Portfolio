@@ -12,9 +12,9 @@
     <meta name="keywords" content="portfolio, web dev, art, game, game art">
     <meta name="description" content="The portfolio of Aidan Murray, a Front-end Web Dev and Game Artist">
     <meta name="author" content="Aidan Murray">
-    <link rel="stylesheet" href="works.css">
+    <link rel="stylesheet" href="css/works.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" type="text/css" href="css/grid-gallery.css"/>
+    <link rel="stylesheet" href="css/grid-gallery.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Works | Aidan Murray</title>
@@ -28,7 +28,7 @@
             <!-- Website Logo -->
             <a href="index.html">
                 <div class="icon">
-                    <img src="images/logo.png" class="sitelogo">
+                    <img src="images/logo.png" class="sitelogo" alt="site logo">
                 </div>
             </a>
 
@@ -41,7 +41,7 @@
 
             <!-- Hamburger menu (for Mobile) -->
             <a class="icon-container" href="javascript:void(0);" onclick="myFunction()">
-                <img src="images/menu.png" class="menu-icon">
+                <img src="images/menu.png" class="menu-icon" alt="site menu button">
             </a>
 
         </nav>
@@ -53,6 +53,7 @@
             <li><a href="about.html">About</a></li>
         </ul>
 
+        <!-- Container for main site content -->
         <div class="content">
 
             <div class="card">
@@ -64,22 +65,22 @@
                     <div class="gg-box">
                         
                         <!-- Image gallery content -->
-                        <img src="test.jpg">
-                        <img src="test.jpg">
-                        <img src="test.jpg">
-                        <img src="test.jpg">
-                        <img src="test.jpg">
-                        <img src="test.jpg">
-                        <img src="test.jpg">
-                        <img src="test.jpg">
-                        <img src="test.jpg">
+                        <img src="images/projects/image1.png" alt="Python graphical login screen">
+                        <img src="images/projects/image2.jpg" alt="Japanese style desktop design">
+                        <img src="images/projects/image3.png" alt="Top down RPG town map">
+                        <img src="images/projects/image4.png" alt="Website for my game Blinding Nights">
+                        <img src="images/projects/image5.png" alt="Alt design for my Blinding Nights">
+                        <img src="images/projects/image6.png" alt="Website redesign for a game called Procedural Realms">
+                        <img src="images/projects/image7.webp" alt="Another more modern python graphical login screen">
+                        <img src="images/projects/image8.webp" alt="Desktop design based on the show 'Evangelion'">
 
                     </div>
 
                 </div>
 
+                <!-- Site Footer -->
                 <footer class="footer-container">
-                    <img src="images/logo.png" height="50px">
+                    <img src="images/logo.png" height="50" alt="site logo">
                     <div class="footer">
                         <h2>Site Links</h2>
                         <a href="index.html"><h3>Home</h3></a>
@@ -104,7 +105,8 @@
 
     </div>
 
-    <script type="text/javascript" src="js/grid-gallery.js"></script>
-    <script type="text/javascript" src="menu.js"></script>
+    <!-- Load Javascript for the mobile menu and image gallery -->
+    <script src="js/grid-gallery.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 </html>

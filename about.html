@@ -12,7 +12,7 @@
     <meta name="keywords" content="portfolio, web dev, art, game, game art">
     <meta name="description" content="The portfolio of Aidan Murray, a Front-end Web Dev and Game Artist">
     <meta name="author" content="Aidan Murray">
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="css/about.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -25,7 +25,7 @@
             <!-- Website Logo -->
             <a href="index.html">
                 <div class="icon">
-                    <img src="images/logo.png" class="sitelogo">
+                    <img src="images/logo.png" class="sitelogo" alt="site logo">
                 </div>
             </a>
 
@@ -37,7 +37,7 @@
             </ul>
             <!-- Hamburger menu (for Mobile) -->
             <a class="icon-container" href="javascript:void(0);" onclick="myFunction()">
-                <img src="images/menu.png" class="menu-icon">
+                <img src="images/menu.png" class="menu-icon" alt="site menu button">
             </a>
         </nav>
 
@@ -47,26 +47,31 @@
             <li><a href="works.html">Works</a></li>
             <li><a href="about.html" class="active">About</a></li>
         </ul>
+
+        <!-- Main site content -->
         <div class="content">
             <div class="card">
                 <h1>About Me</h1>
                 <p>A little bit more about who I am</p>
-                <div class="about">
+
+                <!-- About Section-->
+                <section class="about">
                     <h1>Who am I?</h1>
                     <p>I am a student with a deep interest in all things design and technology. 
                         I love to tinker with things and find out how they work. My primary 
                         interest is in game design/development and I plan to end up working 
                         somewhere in the games industry.</p>
-                </div>
-                <div class="future">
+                    </section>
+                <section class="future">
                     <h1>My Future</h1>
                     <p>As stated above, I plan to gain all the skills needed to succeed in the 
                         games industry. I want to become proficient in all major game engines
                         and software that is used in the game creation workflow.</p>
-                </div>
+                    </section>
 
+                <!-- Site Footer -->
                 <footer class="footer-container">
-                    <img src="images/logo.png" height="50px">
+                    <img src="images/logo.png" height="50" alt="site logo">
                     <div class="footer">
                         <h2>Site Links</h2>
                         <a href="index.html"><h3>Home</h3></a>
@@ -88,6 +93,8 @@
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="menu.js"></script>
+
+    <!-- Load Javascript for the mobile menu -->
+    <script src="js/menu.js"></script>
 </body>
 </html>

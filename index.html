@@ -12,7 +12,7 @@
     <meta name="keywords" content="portfolio, web dev, art, game, game art">
     <meta name="description" content="The portfolio of Aidan Murray, a Front-end Web Dev and Game Artist">
     <meta name="author" content="Aidan Murray">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -48,16 +48,16 @@
         <!-- Container for main page content -->
         <main>
             <div class="card">
-                <div class="hero">
+                <section class="hero">
                     <h1>Aidan Murray</h1>
                     <p>Front-end Web Developer and Game Artist</p>
-                </div>
+                </section>
                 
-                <div class="about">
+                <section class="about">
                     <p>I am a Student and Game Artist who strives 
                         to create amazing experiances that anyone 
                         can enjoy</p>
-                    </div>
+                    </section>
                 
                 <!-- Section for my personal skills -->
                 <h1 class="skills-heading">My Skills</h1>
@@ -78,7 +78,7 @@
 
                 <!-- Section for the page footer-->
                 <footer class="footer-container">
-                    <img src="images/logo.png" height="50px">
+                    <img src="images/logo.png" height="50" alt="site logo">
                     <div class="footer">
                         <h2>Site Links</h2>
                         <a href="index.html"><h3>Home</h3></a>
@@ -100,6 +100,7 @@
             </div>
         </main>
     </div>
-    <script type="text/javascript" src="menu.js"></script>
+    <!-- Load Javascript for the mobile menu -->
+    <script src="js/menu.js"></script>
 </body>
 </html>
