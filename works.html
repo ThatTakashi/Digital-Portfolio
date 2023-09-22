@@ -1,8 +1,17 @@
+<!-- 
+- Portfolio Website
+- By Aidan Murray
+- Works Page
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="portfolio, web dev, art, game, game art">
+    <meta name="description" content="The portfolio of Aidan Murray, a Front-end Web Dev and Game Artist">
+    <meta name="author" content="Aidan Murray">
     <link rel="stylesheet" href="works.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" type="text/css" href="css/grid-gallery.css"/>
@@ -11,41 +20,90 @@
     <title>Works | Aidan Murray</title>
 </head>
 <body>
+    <!-- Wrapper for all website content -->
     <div class="wrapper">
+
         <nav>
+
+            <!-- Website Logo -->
             <a href="index.html">
                 <div class="icon">
                     <img src="images/logo.png" class="sitelogo">
                 </div>
             </a>
+
+            <!-- Desktop navigation -->
+            <ul id = "menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="works.html" class="active">Works</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+
+            <!-- Hamburger menu (for Mobile) -->
             <a class="icon-container" href="javascript:void(0);" onclick="myFunction()">
                 <img src="images/menu.png" class="menu-icon">
             </a>
+
         </nav>
+
+        <!-- Mobile navigation -->
         <ul id = "links">
             <li><a href="index.html">Home</a></li>
-            <li><a href="works.html">Works</a></li>
+            <li><a href="works.html" class="active">Works</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
+
         <div class="content">
+
             <div class="card">
+
                 <h1>My Works</h1>
+                <!-- Image gallery -->
                 <div class="gg-container">
+
                     <div class="gg-box">
-                      <img src="test.jpg">
-                      <img src="test.jpg">
-                      <img src="test.jpg">
-                      <img src="test.jpg">
-                      <img src="test.jpg">
-                      <img src="test.jpg">
-                      <img src="test.jpg">
-                      <img src="test.jpg">
-                      <img src="test.jpg">
+                        
+                        <!-- Image gallery content -->
+                        <img src="test.jpg">
+                        <img src="test.jpg">
+                        <img src="test.jpg">
+                        <img src="test.jpg">
+                        <img src="test.jpg">
+                        <img src="test.jpg">
+                        <img src="test.jpg">
+                        <img src="test.jpg">
+                        <img src="test.jpg">
+
                     </div>
-                  </div>
+
+                </div>
+
+                <footer class="footer-container">
+                    <img src="images/logo.png" height="50px">
+                    <div class="footer">
+                        <h2>Site Links</h2>
+                        <a href="index.html"><h3>Home</h3></a>
+                        <a href="works.html"><h3>Works</h3></a>
+                        <a href="about.html"><h3>About</h3></a>
+                    </div>
+                    <div class="footer">
+                        <h2>Design Links</h2>
+                        <p>Need a designer for levels and game mechanics? I'm certainly your guy.</p>
+                    </div>
+                    <div class="footer">
+                        <h2>My Socials</h2>
+                        <a href="https://twitter.com/That_Takashi_"><h3>Twitter(X)</h3></a>
+                        <a href="https://youtube.com/thattakashi"><h3>YouTube</h3></a>
+                        <a href="https://mastodon.social/@ThatTakashi"><h3>Mastodon</h3></a>
+                        <a href="https://takesama.com/thattakashi"><h3>Takesama</h3></a>
+                    </div>
+                </footer>
             </div>
+
         </div>
+
     </div>
+
     <script type="text/javascript" src="js/grid-gallery.js"></script>
     <script type="text/javascript" src="menu.js"></script>
 </body>

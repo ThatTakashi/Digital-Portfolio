@@ -1,22 +1,22 @@
 /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
 function myFunction() {
-    if (x.style.display === "flex") {
-      x.style.display = "none";
+    if (mobile_links.style.display === "flex") {
+      mobile_links.style.display = "none";
     } else {
-      x.style.display = "flex";
+      mobile_links.style.display = "flex";
     }
   }
 
-var x = document.getElementById("links");
+var mobile_links = document.getElementById("links");
 
-function menu(y) {
-    if (x.matches) { // If media query matches
-      x.style.display = "none";
+function mobile_menu(y) {
+    if (mobile_links.matches) { // If media query matches
+      mobile_links.style.display = "none";
     } else {
-      x.style.display = "none";
+      mobile_links.style.display = "none";
     }
   }
   
   var y = window.matchMedia("(max-width: 750px)")
-  menu(y) // Call listener function at run time
-  y.addListener(menu) // Attach listener function on state changes
+  mobile_menu(y) // Call listener function at run time
+  y.addListener(mobile_menu) // Attach listener function on state changes

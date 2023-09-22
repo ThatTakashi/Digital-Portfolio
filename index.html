@@ -1,8 +1,17 @@
+<!-- 
+- Portfolio Website
+- By Aidan Murray
+- Home Page
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="portfolio, web dev, art, game, game art">
+    <meta name="description" content="The portfolio of Aidan Murray, a Front-end Web Dev and Game Artist">
+    <meta name="author" content="Aidan Murray">
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,13 +26,22 @@
             <div class="icon">
                 <img src="images/logo.png" class="sitelogo" alt="Website Logo">
             </div>
+
+            <!-- Desktop navigation -->
+            <ul id = "menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="works.html">Works</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
             <!-- Hamburger menu (for Mobile) -->
             <a class="icon-container" href="javascript:void(0);" onclick="myFunction()">
                 <img src="images/menu.png" class="menu-icon" alt="Menu Icon">
             </a>
         </nav>
+
+        <!-- Mobile navigation -->
         <ul id = "links">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
             <li><a href="works.html">Works</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
